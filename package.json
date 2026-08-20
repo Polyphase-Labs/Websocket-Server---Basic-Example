@@ -1,0 +1,17 @@
+{
+    "name": "polyphase-websocket-server-example",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Example dedicated server for Polyphase's WebSocket client — realtime JSON messaging, broadcast, and per-connection state.",
+    "main": "server.js",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "engines": {
+        "node": ">=16"
+    },
+    "dependencies": {
+        "ws": "^8.18.0"
+    }
+}
